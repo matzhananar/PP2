@@ -5,3 +5,10 @@ C:\Users\Анар\source\repos\lab1\task3\obj\Debug\task3.csprojAssemblyReferenc
 C:\Users\Анар\source\repos\lab1\task3\obj\Debug\task3.csproj.CoreCompileInputs.cache
 C:\Users\Анар\source\repos\lab1\task3\obj\Debug\task3.exe
 C:\Users\Анар\source\repos\lab1\task3\obj\Debug\task3.pdb
+C:\Users\Анар\Desktop\PP2\week1\task3\bin\Debug\task3.exe.config
+C:\Users\Анар\Desktop\PP2\week1\task3\bin\Debug\task3.exe
+C:\Users\Анар\Desktop\PP2\week1\task3\bin\Debug\task3.pdb
+C:\Users\Анар\Desktop\PP2\week1\task3\obj\Debug\task3.csprojAssemblyReference.cache
+C:\Users\Анар\Desktop\PP2\week1\task3\obj\Debug\task3.csproj.CoreCompileInputs.cache
+C:\Users\Анар\Desktop\PP2\week1\task3\obj\Debug\task3.exe
+C:\Users\Анар\Desktop\PP2\week1\task3\obj\Debug\task3.pdb
