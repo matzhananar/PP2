@@ -5,3 +5,10 @@ C:\Users\Анар\source\repos\lab2\task4\obj\Debug\task4.csprojAssemblyReferenc
 C:\Users\Анар\source\repos\lab2\task4\obj\Debug\task4.csproj.CoreCompileInputs.cache
 C:\Users\Анар\source\repos\lab2\task4\obj\Debug\task4.exe
 C:\Users\Анар\source\repos\lab2\task4\obj\Debug\task4.pdb
+C:\Users\Анар\Desktop\PP2\lab2\task4\bin\Debug\task4.exe.config
+C:\Users\Анар\Desktop\PP2\lab2\task4\bin\Debug\task4.exe
+C:\Users\Анар\Desktop\PP2\lab2\task4\bin\Debug\task4.pdb
+C:\Users\Анар\Desktop\PP2\lab2\task4\obj\Debug\task4.csprojAssemblyReference.cache
+C:\Users\Анар\Desktop\PP2\lab2\task4\obj\Debug\task4.csproj.CoreCompileInputs.cache
+C:\Users\Анар\Desktop\PP2\lab2\task4\obj\Debug\task4.exe
+C:\Users\Анар\Desktop\PP2\lab2\task4\obj\Debug\task4.pdb

@@ -19,7 +19,7 @@ namespace task4
             Directory.CreateDirectory(p);
 
             string ss = "Task4.txt";                                   //дают имя опять
-            string tt = Path.Combine(p, ss);                           //сохраняет в созданной папке
+            string tt = Path.Combine(t, ss);                           //сохраняет в созданной папке
 
             FileStream fs = File.Create(tt);                          //для создания файла
             fs.Close();                                               //закрываем текущий поток
