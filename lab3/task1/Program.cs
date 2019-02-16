@@ -19,17 +19,15 @@ namespace task1
     {
         public int cursor;
         public int size;
-        public bool ok;
         public far()                                                                 //create constructor
         {
             cursor = 0;
-            ok = true;
         }
         public void Up()                                                            //craete function for cusor up.
         {
             cursor--;
             if (cursor < 0)
-                cursor = size - 1;
+                cursor = size;
         }
         public void Down()                                                          //create function for cursor down.
         {
@@ -54,26 +52,26 @@ namespace task1
         }
         public void Show(string path)
         {
-            DirectoryInfo directory = new DirectoryInfo(path);                          //create directory information in path
-            FileSystemInfo[] files = directory.GetFileSystemInfos();                    //create array for information of all file and directroies
+            DirectoryInfo dir = new DirectoryInfo(path);                          //create directory information in path
+            FileSystemInfo[] files = dir.GetFileSystemInfos();                    //create array for information of all file and directroies
             size = files.Length;
             int index = 1;
             foreach (FileSystemInfo fs in files)
             {
                 Color(fs, index);
-                Console.WriteLine(index + " " +fs.Name);
+                Console.WriteLine(index + "." + fs.Name);
                 index++;
             }
         }
         public void Start(string path)
         {
             ConsoleKeyInfo key = Console.ReadKey();
-            while (key.Key != ConsoleKey.E)
+            while (key.Key != ConsoleKey.Escape)
             {
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.Clear();
                 Show(path);
-                key = Console.ReadKey();                                    //read a key for operation
+               key = Console.ReadKey();                                    //read a key for operation
                 if (key.Key == ConsoleKey.UpArrow)
                     Up();
                 else if (key.Key == ConsoleKey.DownArrow)

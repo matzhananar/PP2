@@ -13,7 +13,7 @@ namespace task2
         static void Main(string[] args)
         {
             far FarManager = new far();                                         //create new FarManager
-            FarManager.Start(@"C:\Users\Анар\Documents");                    //call with adress
+            FarManager.Start(@"C:\Users\Анар\Documents");                       //call with adress
         }
     }
     class far                                                                   //create new class
@@ -29,7 +29,7 @@ namespace task2
         public void Delete(FileSystemInfo fs)                                   //delete file command - DELETE
         {
             if (fs.GetType() == typeof(DirectoryInfo))
-                Directory.Delete(fs.FullName, true);                                //delete even this directory consist something
+                Directory.Delete(fs.FullName, true);                            //delete even this directory consist something
             else
             {
                 FileInfo file = new FileInfo(fs.FullName);                      //delete file even it is't directory
@@ -78,7 +78,7 @@ namespace task2
                 Console.BackgroundColor = ConsoleColor.Black;
             }
         }
-        public void Show(string path)                                             //create function which show to us files 
+        public void Show(string path)                                           //create function which show to us files 
         {
             DirectoryInfo directory = new DirectoryInfo(path);
             FileSystemInfo[] files = directory.GetFileSystemInfos();
@@ -93,9 +93,9 @@ namespace task2
         }
         public void Start(string path)
         {
-            ConsoleKeyInfo key = Console.ReadKey();                                 //read a key for command
+            ConsoleKeyInfo key = Console.ReadKey();                             //read a key for command
             FileSystemInfo fs = null;
-            while (key.Key != ConsoleKey.E)                                          //work unless you put E
+            while (key.Key != ConsoleKey.E)                                     //work unless you put E
             {
                 DirectoryInfo directory = new DirectoryInfo(path);
                 Console.BackgroundColor = ConsoleColor.Black;
